@@ -1,0 +1,77 @@
+element.style {
+}
+html {
+    background-color: white;
+}
+html {
+    line-height: 4.15;
+    -webkit-text-size-adjust: 100%;
+
+}
+* {
+    font-family: 'times new roman', sans-serif;
+}
+html[Attributes Style] {
+    -webkit-locale: "en";
+}
+
+
+
+h3 {
+    margin: 0;
+    font-family: 'Times New Roman', sans-serif;
+    padding: 10px;
+    /* text-align: center; */
+    background: ;
+    color: Black;
+  text-align: center;
+
+}
+main {
+    grid-template-columns: 1fr 1fr;
+  
+    background: white;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 95%;
+    margin: 20px auto;
+}
+    .one, .two, .three {
+    background-color: #00ABE4;
+    border-radius: 5px;
+    padding: 4em;
+    text-align: left;
+    box-shadow: 4px 4px 5px #484848;
+    line-height: 5.5;  
+}
+    
+
+    .one {
+    
+    line-height: 7.9;  
+}    
+    
+ .two {
+    
+    line-height: 9.9;   
+   
+   }    
+    
+ .three {
+    
+    line-height: 8.9;   
+}
+
+   p {
+     
+  color: black;
+  text-align: left;
+  line-height: 2.2em; 
+}
+
+
+h1 {
+  text-align: center;
