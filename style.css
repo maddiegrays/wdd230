@@ -1,4 +1,4 @@
-style.css {
+stylesheet {
 }
 
 header, footer {
@@ -15,5 +15,5 @@ header, main, footer {
 background-image: url('IMG_8547_edited.jpg');
 img {
   width: 400px,
-  height: 300px
+  height: 500px
 }
