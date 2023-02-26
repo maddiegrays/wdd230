@@ -1,0 +1,164 @@
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sammamish Chamber of Commerce Homepage.">
+    <meta name="author" content="Ashley Duke">
+    <title>Join | Sammamish Chamber</title>
+    <link rel="icon" href="chamber-favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="join.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <picture><a href=""><img id="Logo" src="" alt=""></a></picture>
+            <section class="headings">
+                <h1>Sammamish Chamber of Commerce</h1>
+                <p class="m"></p>
+            </section>
+        </div>
+        <div id="socials">
+            <a href="" target="" class=""></a>
+            <a href="" target="" class=""></a>
+        </div>
+        <div class="today"></div>
+        <aside></aside>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a id="menu" href="#"></a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="jointitle">Join Today!</h2>
+        <div id="join-main">
+        <div>
+            <form action="thankyou.html" method="get">
+            <label for="fname">First Name *<br>
+                <input type="text" id="fname" name="fname" required>
+            </label>
+            <label for="lname">Last Name *<br>
+                <input type="text" id="lname" name="lname" required>
+            </label>
+            <label for="email">Email *<br>
+                <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+            </label>
+            <label for="phone">Phone Number *<br>
+                <input type="tel" id="phone" name="phone" required>
+            </label>
+            <div><hr></div>
+            <label for="title">Business Name *<br>
+                <input type="text" id="title" name="title" required>
+            </label>
+            <label for="ptitle">Business Position/Title * <br>
+                <input type="text" id="ptitle" name="ptitle" pattern="[a-zA-Z -]{7,}">
+            </label>
+            <label for="descript">Business Description * <br>
+                <textarea name="descript" id="descript" rows="5" placeholder=""></textarea>
+            </label>
+            <label for="membership">Membership Level <br>
+                <select name="membership" id="membership">
+                    <option>Select</option>
+                    <option value="np">Non-Profit</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="silver">Silver</option>
+                    <option value="gold">Gold</option>
+                </select>
+            </label>
+            <label for="subdate">
+                <input type="hidden" id="subdate" name="subdate">
+            </label>
+            <label for="submit">
+                <input type="submit" id="submit" value="Join">
+            </label>
+            </form>
+        </div>
+        <div>
+        <table>
+            <caption>Table 1: Membership Levels Comparison</caption>
+            <thead>
+                <tr>
+                    <th colspan="5" scope="colgroup">Membership Level Benefits</th>
+                </tr>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">NP</th>
+                    <th scope="col">Bronze</th>
+                    <th scope="col">Silver</th>
+                    <th scope="col">Gold</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                </tr>
+                <tr>
+                    <td>Newsletter</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                </tr>
+                <tr>
+                    <td>Local Discounts</td>
+                    <td class="cross">⨉</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                </tr>
+                <tr>
+                    <td>Football Games</td>
+                    <td class="cross">⨉</td>
+                    <td class="cross">⨉</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                </tr>
+                <tr>
+                    <td>Events</td>
+                    <td class="cross">⨉</td>
+                    <td class="cross">⨉</td>
+                    <td class="cross">⨉</td>
+                    <td class="check">✓</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        </div>
+    </main>
+    <footer>
+           <div class="logo-footer">
+            <img class="logo-footer" src="" alt="">
+                </div>
+                <div class="title-footer">
+                    <h2>Sammamish Chamber of Commerce</h2>
+                </div>
+                <div class="contact">
+                    <p>Samm.com</p>
+                    <p>+(1) 889-1231</p>
+                    <a href="https://www.google.com/maps/dir/43.8095906,-111.7886911/sammamish+commons/@45.0533642,-121.4145753,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x549071e5ca1356ed:0xea933928cb4b45a7!2m2!1d-122.0405897!2d47.6023423">
+                        Location
+                        </a>
+                            <br><br>
+                    </div>
+                <div class="info">  
+                        <span>  &nbsp; &nbsp; &copy;<span id="© 2023">
+                        </span>  &nbsp; Sammamish Chamber of Commerce &nbsp;</span> |  &nbsp; Madison Grayson &nbsp; |  &nbsp; WDD 230 &nbsp;|  &nbsp; Last Updated: 2/25/23 &nbsp;  &nbsp; <span id="dateMod"></span>
+                    
+                </div>            
+            </footer>
+            <script src="js/script.js"></script>
+        </body>
+        </html>
