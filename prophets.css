@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+
+ 
+    font-family:'times new roman';
+    margin:  2 auto;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+header {
+    background-color: rgb(158, 0, 7);
+    color: white;
+    padding: 20px;
+}
+.cards {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 5px;
+}
+.cards section {
+    
+    background-color: white;
+    margin: 10px auto;
+}
+.cards h2 {
+    padding: 15px 7px 0;
+  
+}
+.cards img {
+    padding: 10px;
+    width: auto;
+    max-width: 335px;
+}
+footer {
+    background-color: rgb(158, 0, 7);
+    color: white;
+    padding: 15px;
+}
